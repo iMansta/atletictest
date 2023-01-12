@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans";
+}
+input[type=text] {
+
+    padding: 12px 20px;
+    margin: 9px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+    width: 40%;
+    height: 20%;
+    border: 1px solid #ffffff;
+}
+
+input[type=text]:hover {
+    border: 1px solid rgb(0, 0, 0);
+    transition: 6s;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+
+
+}
+
+button {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+.btn {
+    border-radius: 30px;
+    width: 14%;
+    margin-left: 5px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
